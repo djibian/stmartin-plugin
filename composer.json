@@ -1,0 +1,30 @@
+{
+
+    "name": "djibian/stmartin-plugin",
+
+    "description": "Woocommerce plugin to add list of ingredients and price per unit of measure",
+
+    "type": "wordpress-plugin",
+
+    "keywords": ["price", "unit", "ingredients", "kg"],
+
+    "license": "GPL-3.0-or-later",
+
+    "authors": [
+
+        {
+
+            "name": "Emmanuel BLANCHARD",
+
+            "email": "emmanuel.blanchard@retzien.fr"
+
+        }
+
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "StMartin\\": "./class"
+        }
+    }
+}

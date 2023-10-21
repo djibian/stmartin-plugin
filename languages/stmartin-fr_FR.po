@@ -1,0 +1,66 @@
+# Copyright (C) 2022 Emmanuel BLANCHARD
+# This file is distributed under the same license as the Bocal en balade plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bocal en balade\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bocalenbalade\n"
+"Last-Translator: Emmanuel BLANCHARD <emmanuel.blanchard@retzien.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-06T10:29:20+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: bocalenbalade\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Language: fr_FR\n"
+
+#. Plugin Name of the plugin
+msgid "Bocal en balade"
+msgstr ""
+
+#. Description of the plugin
+msgid "Woocommerce plugin for sale in bulk."
+msgstr "Extension Woocommerce pour la vente en vrac"
+
+#. Author of the plugin
+msgid "Emmanuel BLANCHARD"
+msgstr ""
+
+#: class/PostType/PostTypeImageMetabox.php:33
+msgid "Click the image to edit or update"
+msgstr "Cliquer sur l'image pour éditer ou modifier"
+
+#: class/PostType/PostTypeImageMetabox.php:35
+#: class/Taxonomy/TaxonomyImageMetadata.php:33
+#: class/Taxonomy/TaxonomyImageMetadata.php:96
+msgid "Remove image"
+msgstr "Supprimer l'image"
+
+#: class/PostType/PostTypeImageMetabox.php:45
+#: class/Taxonomy/TaxonomyImageMetadata.php:42
+#: class/Taxonomy/TaxonomyImageMetadata.php:104
+msgid "Image"
+msgstr "Image"
+
+#: class/PostType/PostTypeImageMetabox.php:45
+#: class/Taxonomy/TaxonomyImageMetadata.php:32
+#: class/Taxonomy/TaxonomyImageMetadata.php:42
+#: class/Taxonomy/TaxonomyImageMetadata.php:95
+#: class/Taxonomy/TaxonomyImageMetadata.php:104
+msgid "Set image"
+msgstr "Ajouter image"
+
+#: class/PostType/ProviderMetabox.php:17
+msgid "local provider"
+msgstr "fournisseur local"
+
+#: class/PostType/UrlMetabox.php:16
+msgid "Link to the provider's website."
+msgstr "Lien vers le site web du fournisseur."
+
+#: class/Taxonomy/TaxonomyImageMetadata.php:28
+#: class/Taxonomy/TaxonomyImageMetadata.php:90
+msgid "Thumbnail"
+msgstr "Miniature"
