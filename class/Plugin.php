@@ -16,8 +16,9 @@ class Plugin extends \Wof\Plugin
 
     public function registerAllPostTypeCustomMetaboxes()
     {
-        $this->registerPostTypeCustomMetabox('listofingredients', 'List of ingredients', 'product', PostTypeTextareaMetabox::class);
-        $this->registerPostTypeCustomMetabox('priceperunitofmeasure', 'Prix au kg ou L', 'product', PostTypePriceMetabox::class);
+        /* la fonction __() ne fonctionne pas ici...pourquoi ???mystère??? */
+        $this->registerPostTypeCustomMetabox('listofingredients', __( 'List of ingredients' , 'stmartin-plugin' ), 'product', PostTypeTextareaMetabox::class);
+        $this->registerPostTypeCustomMetabox('priceperunitofmeasure', __( 'Price per kg or L' , 'stmartin-plugin' ), 'product', PostTypePriceMetabox::class);
     }
 
      /**

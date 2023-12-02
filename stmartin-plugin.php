@@ -3,7 +3,8 @@
  * Plugin Name: stmartin-plugin
  * Description: Woocommerce plugin to help students of saint martin high school practicing e-commerce.
  * Author: Emmanuel BLANCHARD
- * Text Domain: stmartin
+ * Text Domain: stmartin-plugin
+ * Domain Path: /languages
  * 
  * Ce fichier porte le nom du plugin (du répertoire du plugin)
  * => C'est le point d'entrée du plugin
@@ -23,7 +24,7 @@ require __DIR__ .'/../wof/autoload.php';
 // Chargement du fichier de langue lors du chargement du plugin
 function stmartin_plugin_init() {
     $plugin_rel_path = basename( dirname( __FILE__ ) ) . '/languages'; /* Relative to WP_PLUGIN_DIR */
-    load_plugin_textdomain( 'stmartin', false, $plugin_rel_path );
+    load_plugin_textdomain( 'stmartin-plugin', false, $plugin_rel_path );
 }
 add_action('plugins_loaded', 'stmartin_plugin_init');
 

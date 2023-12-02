@@ -19,9 +19,9 @@ class PostTypePriceMetabox extends PostTypeCustomMetabox
         <?php wp_nonce_field( $this->keyName . '_wof', $this->keyName . '_nonce' ); ?>
 
         <p>
-        <label for="post<?php echo $this->keyName; ?>div"><?php _e( "Edit price per kg or L", 'wof' ); ?></label>
+        <label for="post<?php echo $this->keyName; ?>div"><?php _e( "Edit price per kg or L", 'stmartin-plugin' ); ?></label>
         <br />
-        <input id="post<?php echo $this->keyName; ?>div" class="widefat" type="text" placeholder="12,5€/kg" pattern="^\d{1,5},\d{2}?€/(kg|L)$" name="<?php echo $this->keyName; ?>" value="<?php echo esc_attr( $this->getValue( $post->ID ) ); ?>" size="30" />
+        <input id="post<?php echo $this->keyName; ?>div" class="widefat" type="text" placeholder="12,50€/kg" pattern="^\d{1,5},\d{2}€/(kg|L)$" name="<?php echo $this->keyName; ?>" value="<?php echo esc_attr( $this->getValue( $post->ID ) ); ?>" size="30" />
         </p>
         
     <?php

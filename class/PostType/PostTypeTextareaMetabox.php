@@ -19,7 +19,7 @@ class PostTypeTextareaMetabox extends PostTypeCustomMetabox
         <?php wp_nonce_field( $this->keyName . '_wof', $this->keyName . '_nonce' ); ?>
 
         <p>
-        <label for="post<?php echo $this->keyName; ?>div"><?php _e( "Edit your text", 'wof' ); ?></label>
+        <label for="post<?php echo $this->keyName; ?>div"><?php _e( "Edit your text", 'stmartin-plugin' ); ?></label>
         <br />
         <textarea class="widefat" rows="5" name="<?php echo $this->keyName; ?>" id="post<?php echo $this->keyName; ?>div"><?php echo $this->getValue( $post->ID ); ?></textarea>
         </p>
