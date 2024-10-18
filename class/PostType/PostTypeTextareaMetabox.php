@@ -1,7 +1,7 @@
 <?php
 namespace StMartin\PostType;
 
-use Wof\PostTypeCustomMetabox;
+use StMartinWof\PostTypeCustomMetabox;
 
 class PostTypeTextareaMetabox extends PostTypeCustomMetabox
 {

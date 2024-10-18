@@ -19,7 +19,7 @@ use StMartin\Plugin;
 require __DIR__ . '/static-vendor/autoload.php';
 
 // WARNING ne pas oublier cet include pour utiliser le Wof !!! Bien sûr le plugin Wof doit également se trouver dans le dossier plugin
-require __DIR__ .'/../wof/autoload.php';
+require __DIR__ .'/../stmartin-wof/autoload.php';
 
 // Chargement du fichier de langue lors du chargement du plugin
 function stmartin_plugin_init() {
