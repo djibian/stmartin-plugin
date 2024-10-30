@@ -1,4 +1,4 @@
-# Copyright (C) 2023 Emmanuel BLANCHARD
+# Copyright (C) 2024 Emmanuel BLANCHARD
 # This file is distributed under the same license as the stmartin-plugin plugin.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-12-01T17:15:26+01:00\n"
+"POT-Creation-Date: 2024-10-26T13:23:09+02:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: stmartin-plugin\n"
@@ -27,10 +27,12 @@ msgid "Emmanuel BLANCHARD"
 msgstr ""
 
 #: class/Plugin.php:19
+#: class/Plugin.php:90
 msgid "List of ingredients"
 msgstr ""
 
 #: class/Plugin.php:20
+#: class/Plugin.php:91
 msgid "Price per kg or L"
 msgstr ""
 
@@ -40,4 +42,41 @@ msgstr ""
 
 #: class/PostType/PostTypeTextareaMetabox.php:22
 msgid "Edit your text"
+msgstr ""
+
+#: class/PostType/PostTypeImageMetabox.php:33
+msgid "Click the image to edit or update"
+msgstr ""
+
+#: class/PostType/PostTypeImageMetabox.php:35
+#: class/Taxonomy/TaxonomyImageMetadata.php:33
+#: class/Taxonomy/TaxonomyImageMetadata.php:96
+msgid "Remove image"
+msgstr ""
+
+#: class/PostType/PostTypeImageMetabox.php:45
+#: class/Taxonomy/TaxonomyImageMetadata.php:42
+#: class/Taxonomy/TaxonomyImageMetadata.php:104
+msgid "Image"
+msgstr ""
+
+#: class/PostType/PostTypeImageMetabox.php:45
+#: class/Taxonomy/TaxonomyImageMetadata.php:32
+#: class/Taxonomy/TaxonomyImageMetadata.php:42
+#: class/Taxonomy/TaxonomyImageMetadata.php:95
+#: class/Taxonomy/TaxonomyImageMetadata.php:104
+msgid "Set image"
+msgstr ""
+
+#: class/PostType/ProviderMetabox.php:17
+msgid "local provider"
+msgstr ""
+
+#: class/PostType/UrlMetabox.php:16
+msgid "Link to the provider's website."
+msgstr ""
+
+#: class/Taxonomy/TaxonomyImageMetadata.php:28
+#: class/Taxonomy/TaxonomyImageMetadata.php:90
+msgid "Thumbnail"
 msgstr ""
