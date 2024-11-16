@@ -90,10 +90,10 @@ class Plugin extends \StMartinWof\Plugin
         $this->registerPostTypeCustomMetabox('listofingredients', __( 'List of ingredients' , 'stmartin-plugin' ), 'product', PostTypeTextareaMetabox::class);
         $this->registerPostTypeCustomMetabox('priceperunitofmeasure', __( 'Price per kg or L' , 'stmartin-plugin' ), 'product', PostTypePriceMetabox::class);
 
-        $this->registerPostTypeCustomMetabox('provider', 'Provider', 'product', ProviderMetabox::class);
-        $this->registerPostTypeCustomMetabox('photo', 'Photo', 'producer', IdentityPhotoMetabox::class);
-        $this->registerPostTypeCustomMetabox('websiteurl', 'Website URL', 'producer', UrlMetabox::class);
-        $this->registerPostTypeCustomMetabox('city', 'City', 'producer');
+        $this->registerPostTypeCustomMetabox('provider', __( 'Provider', 'stmartin-plugin' ), 'product', ProviderMetabox::class);
+        $this->registerPostTypeCustomMetabox('photo', 'Photo', __( 'Producer', 'stmartin-plugin' ), IdentityPhotoMetabox::class);
+        $this->registerPostTypeCustomMetabox('websiteurl', __( 'Website URL', 'stmartin-plugin' ), 'producer', UrlMetabox::class);
+        $this->registerPostTypeCustomMetabox('city', __( 'City', 'stmartin-plugin' ), 'producer');
     }
 
      /**

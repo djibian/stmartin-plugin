@@ -23,10 +23,13 @@ require __DIR__ .'/../stmartin-wof/autoload.php';
 
 // Chargement du fichier de langue lors du chargement du plugin
 function stmartin_plugin_init() {
+    if (!is_plugin_active('stmartin-wof/stmartin-wof.php')) {
+        return; // Ne rien faire si le plugin dépendant n'est pas actif
+    }
     $plugin_rel_path = basename( dirname( __FILE__ ) ) . '/languages'; /* Relative to WP_PLUGIN_DIR */
     load_plugin_textdomain( 'stmartin-plugin', false, $plugin_rel_path );
 }
-add_action('plugins_loaded', 'stmartin_plugin_init');
+add_action('init', 'stmartin_plugin_init', 1); /* on doit le charger les langues sur init depuis wordpress 6.7.0 mais aussi avant les __() */
 
 $plugin = new Plugin();
 

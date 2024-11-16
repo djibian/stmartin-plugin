@@ -14,7 +14,7 @@ class ProviderMetabox extends PostTypeCustomMetabox
         <?php wp_nonce_field( $this->keyName . '_wof', $this->keyName . '_nonce' ); ?>
     
         <p>
-        <label for="post<?php echo $this->keyName; ?>div"><?php _e( "local provider", 'stmartin-plugin' ); ?></label>
+        <label for="post<?php echo $this->keyName; ?>div"><?php _e( 'Local provider', 'stmartin-plugin' ); ?></label>
         <br />
         <select id="post<?php echo $this->keyName; ?>div" name="<?php echo $this->keyName; ?>" class="component-select-control">
         <option value="" <?php if ($this->getValue( $post->ID ) == '') {echo 'selected';}?>>(non renseigné)</option>
