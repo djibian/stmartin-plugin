@@ -1,4 +1,4 @@
-# Copyright (C) 2024 Emmanuel BLANCHARD
+# Copyright (C) 2025 Emmanuel BLANCHARD
 # This file is distributed under the same license as the stmartin-plugin plugin.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-16T18:39:33+01:00\n"
+"POT-Creation-Date: 2025-01-25T17:36:44+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: stmartin-plugin\n"
@@ -85,10 +85,6 @@ msgstr ""
 msgid "Provider"
 msgstr ""
 
-#: class/Plugin.php:94
-msgid "producer"
-msgstr ""
-
 #: class/Plugin.php:95
 msgid "Website URL"
 msgstr ""
@@ -103,4 +99,8 @@ msgstr ""
 
 #: class/Plugin.php:94
 msgid "Producer"
+msgstr ""
+
+#: class/Plugin.php:94
+msgid "Photo"
 msgstr ""

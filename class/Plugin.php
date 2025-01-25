@@ -91,7 +91,7 @@ class Plugin extends \StMartinWof\Plugin
         $this->registerPostTypeCustomMetabox('priceperunitofmeasure', __( 'Price per kg or L' , 'stmartin-plugin' ), 'product', PostTypePriceMetabox::class);
 
         $this->registerPostTypeCustomMetabox('provider', __( 'Provider', 'stmartin-plugin' ), 'product', ProviderMetabox::class);
-        $this->registerPostTypeCustomMetabox('photo', 'Photo', __( 'Producer', 'stmartin-plugin' ), IdentityPhotoMetabox::class);
+        $this->registerPostTypeCustomMetabox('photo', __( 'Photo', 'stmartin-plugin' ), 'producer', IdentityPhotoMetabox::class);
         $this->registerPostTypeCustomMetabox('websiteurl', __( 'Website URL', 'stmartin-plugin' ), 'producer', UrlMetabox::class);
         $this->registerPostTypeCustomMetabox('city', __( 'City', 'stmartin-plugin' ), 'producer');
     }

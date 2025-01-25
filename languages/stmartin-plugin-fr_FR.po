@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stmartin-plugin\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stmartin-plugin\n"
-"POT-Creation-Date: 2024-11-16T18:39:33+01:00\n"
+"POT-Creation-Date: 2025-01-25T17:36:44+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,11 @@ msgstr "Image"
 msgid "Set image"
 msgstr "Mettre une image"
 
+#: class/PostType/ProviderMetabox.php:17
+#, fuzzy
+msgid "local provider"
+msgstr "Fournisseur local"
+
 #: class/PostType/UrlMetabox.php:16
 msgid "Link to the provider's website."
 msgstr "Lien vers le site web du fournisseur."
@@ -100,3 +105,7 @@ msgstr "Fournisseur local"
 #: class/Plugin.php:94
 msgid "Producer"
 msgstr "Producteur"
+
+#: class/Plugin.php:94
+msgid "Photo"
+msgstr "Photo"
